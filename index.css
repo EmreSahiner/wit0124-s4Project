@@ -1,3 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+header h1, header div {
+    width: 30%;
+}
+
+header nav a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+header nav a:hover {
+    color: red;
+}
+
+input {
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+/*     background-image: url("https://w7.pngwing.com/pngs/608/913/png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail.png");
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: right; */
+}
+
+.search-icon {
+    margin-left: -2.3rem;
+}
+
+.notification-icon {
+    font-size: 2rem;
+}
+
+.user-avatar {
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+
+.access-menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
 h1 {
     color: red;
 }
+
+

@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    min-width: 420px;
 }
 
 .text-bold {
@@ -148,7 +149,7 @@ section {
 .section-content, .section-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     gap: 4rem;
 }
 
@@ -222,7 +223,44 @@ footer nav a:first-child {
         width: 100%;
         text-align: center;
     }
-    .section-content {
-        overflow: auto;
+
+    main h2 {
+        font-size: 2.5rem;
     }
+
+    .card {
+        padding: 1rem;
+        width: 80%;
+    }
+
+    .card h4 {
+        font-size: 1.2rem;
+        margin: 1.2rem 0;
+    }
+
+    .card .btn-l {
+        padding: 0.6rem 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .card .btn-l i {
+        margin-left: -0.8rem;
+        margin-right: 0.4rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer>div:nth-child(1){
+        order:3
+    }
+    footer>div:nth-child(2){
+        order:2
+    }
+    footer>div:nth-child(3){
+        order:1
+    }
+
+
 }
